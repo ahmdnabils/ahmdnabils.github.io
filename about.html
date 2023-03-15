@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <title>Maxime Inventa</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/2.Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="tech.html">TECH HUB</a></li>
+                        <li><a href="insight.html">INSIGHT</a></li>
+                        <li><a href="paper.html">PAPER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+           <h1>About Us</h1>
+
+        </section>
+
+        <!-------About Us Content-------->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are one of the reliable resources website</h1>
+                    <p> Oil and natural gas are major industries in the energy m  arket and play an influential role in the global economy as the world's primary fuel sources. The processes and systems involved in producing and distributing oil and gas are highly complex, capital-intensive, and require state-of-the-art technology. Historically, natural gas has been linked to oil, mainly because of the production process or upstream side of the business. For much of the history of the industry, natural gas was viewed as a nuisance and even today is flared in large quantities in some parts of the world, including the United States. Natural gas has taken on a more prominent role in the world's energy supply as a consequence of shale gas development in the United States, as mentioned above, and its lower greenhouse gas emissions when combusted when compared to oil and coal.
+
+                    This guide looks at the business of oil and gas and is intended to serve as a research aid to sources worldwide, with a specific emphasis on the United States. It covers a brief history of the oil and gas industry, an overview of companies and organizations, statistic and pricing resources, and regulations. The industry is often divided into three segments:
+                        
+                    upstream, the business of oil and gas exploration and production;
+                    midstream, transportation and storage; and
+                    downstream, which includes refining and marketing.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+                </div>
+                <div class="about-col">
+                    <img src="images/1393221.jpg">
+                </div>
+
+            </div>
+       </section>
+
+        
+
+        <!-------Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Maxime Inventa was develop to help you discovers more and more knowledge about oil and gas Industries</p>
+            <div class="contact-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Created by Nabil Subandi</p>
+
+
+        </section>
+
+
+        <!-----JavaScript for Toggle Menu---->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenu (){
+                navLinks.style.right = "0";
+            }
+            function hideMenu (){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

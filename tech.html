@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <title>Maxime Inventa</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/2.Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="tech.html">TECH HUB</a></li>
+                        <li><a href="insight.html">INSIGHT</a></li>
+                        <li><a href="paper.html">PAPER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+           <h1> A Great Technology always focused on our needs and built solutions accordingly</h1>
+
+        </section>
+
+        <!------- Petroleum Tech Hub Content-------->
+        <section class="TechHub">
+            
+            <div class="row">
+                <div class="TechHub-col">
+                    <h3>Artificial Lift</h3>
+                    <p> Artificial lift is a process used on oil wells to increase pressure within the reservoir and encourage oil to the surface. When the natural drive energy of the reservoir is not strong enough to push the oil to the surface, artificial lift is employed to recover more production.
+
+                        Even those wells that initially posses natural flow to the surface, that pressure depletes over time, and artificial lift is then required. Therefore, artificial lift is generally performed on all wells at some time during their production life.
+                        
+                        Although there are several methods to achieve artificial lift, the two main categories of artificial lift include pumping systems and gas lifts.</p>
+                </div>
+                <div class="TechHub-col">
+                    <h3>Formation Damage</h3>
+                    <p> Formation damage is a condition most commonly caused by wellbore fluids used during drilling, completion and workover operations. It impairs the permeability of reservoir rocks, thereby reducing the natural productivity of reservoirs. 
+                        Formation damage can adversely affect both drilling operations and production, which directly impacts economic viability. Although the severity of formation damage may vary from one well to another, any reduction in recovery potential is unwanted. 
+                        From the initial drilling operation and completion of a well to reservoir depletion by production, the effects of formation damage can negatively impact oil and gas recovery.</p>
+                </div>
+                <div class="TechHub-col">
+                    <h3>Sand Production</h3>
+                    <p> Sand production is considered as one of the significant production issues that significantly reduce wellbore productivity. The process of sand or solids production in production operations is one of the crucial operational inefficiencies that can lead to wells collapsing. 
+                        Besides, the drilling mud might erupt through the formation. Therefore, it is essential to properly determine what types of solids or sand are produced to correctly predict efficient sand control mechanisms.</p>
+                </div>
+
+            </div>
+
+        
+
+        <!-------Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Maxime Inventa was develop to help you discovers more and more knowledge about oil and gas Industries</p>
+            <div class="contact-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Created by Nabil Subandi</p>
+
+
+        </section>
+
+
+        <!-----JavaScript for Toggle Menu---->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenu (){
+                navLinks.style.right = "0";
+            }
+            function hideMenu (){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

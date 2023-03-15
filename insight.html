@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+        <title>Maxime Inventa</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/2.Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="tech.html">TECH HUB</a></li>
+                        <li><a href="insight.html">INSIGHT</a></li>
+                        <li><a href="paper.html">PAPER</a></li>
+                        <li><a href="contact.html">CONTACT</a></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+           <h1>Improve your capacity to gain an accurate and deep understanding on this industry</h1>
+
+        </section>
+
+        <!------- Industry Insight Content-------->
+        <section class="career-content">
+
+            <div class="row">
+                <div class="career-left">
+                    <img src="images/Insight1.1.jpeg">
+                    <h2> Career Development </h2>
+                    <p> The energy sector is a massive contributor to world GDP, and accounted for 2.2% of the total for the year 2016, 
+                        according to International Energy Agency. </p>
+                    <p> If you are planning to embark on a career in the oil and gas industry, or the wider energy sector, 
+                        this industry offers a number of enticing benefits. </p>
+                    <p> Salaries for this sector are typically higher than average, and this is due to several factors, 
+                        such as the educational background required. However other incentives, such as lucrative financial bonuses,
+                        will also come into play and make potentially remote working locations more attractive to workers. 
+                        Individual salaries vary depending very much on experience levels and role-specific skills, though seldom start below £25k. 
+                        Those in senior, or more skilled positions can command significantly higher pay. </p>
+                    <p> Technology is integral to this industry, and as you progress along this path you will have opportunities to be trained regularly with cutting-edge equipment. 
+                        Ensuring your skills are kept up to speed will contribute greatly to your career trajectory. </p>
+                    <p> Travel possibilities are common, due to the global demand for these resources. 
+                        The growing need for skilled professionals means this career choice gives you real geographic versatility – especially if you work off-shore! </p>
+                    <p> Learning takes place at a continual rate in oil and gas careers. This sector is constantly evolving, and advancements in technology and practices are common, 
+                        meaning you can expect to professionally develop alongside working. </p>
+                    <p> Skills you can develop in this industry may be very specific, such as petroleum economics, oil and gas exploration management, 
+                        refinery management, and operations material management. However you will also broaden your analytical, communication, and management abilities. </p>
+
+                        <div class="comment-box">
+                            <h3>Leave a Comment</h3>
+        
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea row="5" placeholder="Your Comment"></textarea>
+                                </textarea>
+                                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        
+                            </form>
+        
+                        </div>
+                </div>   
+
+                               
+                <div class="career-right">
+                    <h3>Discover Your Interest</h3>
+                    <div>
+                        <span>Mud Logger</span>
+                        <span>20</span>
+                    </div> 
+                    <div>
+                        <span>Drilling Engineer</span>
+                        <span>20</span>
+                    </div>  
+                    <div>
+                        <span>Well Engineer</span>
+                        <span>20</span>
+                    </div>  
+                    <div>
+                        <span>Reservoir Engineer</span>
+                        <span>20</span>
+                    </div>  
+                    <div>
+                        <span>Production Technologist</span>
+                        <span>20</span>
+                    </div>  
+                    <div>
+                        <span>Petrophisicist</span>
+                        <span>20</span>
+                    </div>  
+                    <div>
+                        <span>Economist</span>
+                        <span>20</span>
+                    </div>   
+                                           
+                </div>   
+
+                
+
+            </div>
+
+        </section>
+        
+
+        <!-------Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Maxime Inventa was develop to help you discovers more and more knowledge about oil and gas Industries</p>
+            <div class="contact-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Created by Nabil Subandi</p>
+
+
+        </section>
+
+
+        <!-----JavaScript for Toggle Menu---->
+        <script>
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenu (){
+                navLinks.style.right = "0";
+            }
+            function hideMenu (){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
